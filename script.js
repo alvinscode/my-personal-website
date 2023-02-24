@@ -28,8 +28,8 @@ function moveDodgerLeft() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
   
-    if (left > 0) {
-      dodger.style.left = `${left - 20}px`;
+    if (left > 740) {
+      dodger.style.left = `${left - 15}px`;
     }
   }
 
@@ -37,8 +37,8 @@ function moveDodgerRight() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
   
-    if (left < 1880) {
-      dodger.style.left = `${left + 20}px`;
+    if (left < 1140) {
+      dodger.style.left = `${left + 15}px`;
     }
   }
 

@@ -52,10 +52,9 @@ body {
   }
 
   #dodger {
-    background-color: lemonchiffon;
+    background-color: #14000d;
     height: 10px;
     position: absolute;
     width: 40px;
-    text-shadow: 10px 10px 50px;
   }
   
