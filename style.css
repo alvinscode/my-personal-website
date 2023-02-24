@@ -58,3 +58,8 @@ body {
     width: 40px;
   }
   
+  #gitHub {
+    position:absolute;
+    right: 0px;
+    top: 0px;
+  }
