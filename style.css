@@ -34,3 +34,29 @@ body {
     text-shadow: 10px 10px 50px;
   }
 
+  ul {
+    color: #540032;
+    list-style:none;
+    background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 149%;
+  }
+
+  p {
+    font-size:x-large;
+    text-shadow: 10px 10px 50px;
+  }
+
+  a {
+    color: #14000d;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 1s;
+  }
+
+  a:hover {
+    color: greenyellow;
+    border-color: greenyellow;
+  }
