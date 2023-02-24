@@ -12,11 +12,10 @@ body {
     justify-content: center;
     align-items: center;
   }
-
+  
   h1 {
     max-width: 75%;
     font-size: 100px;
-    text-align: center;
     font-family: "Montserrat", sans-serif;
     color: #540032;
     background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg);
@@ -27,9 +26,11 @@ body {
   }
 
   h2 {
+    color: #540032;
     background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg);
     background-attachment: fixed;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-shadow: 10px 10px 50px;
   }
+
