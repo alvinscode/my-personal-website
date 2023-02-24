@@ -20,3 +20,38 @@ function resetImage() {
     document.getElementById("gitHub").src = "./images/github-mark.png";
     }
 //end github highlight effect
+
+//dodger
+const dodger = document.getElementById("dodger");
+
+function moveDodgerLeft() {
+    const leftNumbers = dodger.style.left.replace("px", "");
+    const left = parseInt(leftNumbers, 10);
+  
+    if (left > 0) {
+      dodger.style.left = `${left - 20}px`;
+    }
+  }
+
+function moveDodgerRight() {
+    const leftNumbers = dodger.style.left.replace("px", "");
+    const left = parseInt(leftNumbers, 10);
+  
+    if (left < 1880) {
+      dodger.style.left = `${left + 20}px`;
+    }
+  }
+
+let direction = "";
+
+document.addEventListener("mousemove", function (e) {
+    let oldx= 0;
+    if (e.movementX < oldx) {
+        direction = "left";
+        moveDodgerLeft();
+    } else if (e.movementX > oldx) {
+        direction = "right";
+        moveDodgerRight();
+    }
+  });
+  //end dodger

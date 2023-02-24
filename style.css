@@ -33,7 +33,7 @@ body {
     -webkit-background-clip: text;
     text-shadow: 10px 10px 50px;
   }
-  
+
   p {
     font-size:x-large;
     text-shadow: 10px 10px 50px;
@@ -50,3 +50,12 @@ body {
     color: greenyellow;
     border-color: greenyellow;
   }
+
+  #dodger {
+    background-color: lemonchiffon;
+    height: 10px;
+    position: absolute;
+    width: 40px;
+    text-shadow: 10px 10px 50px;
+  }
+  
