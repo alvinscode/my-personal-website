@@ -8,7 +8,7 @@ body {
 
   .wrapper {
     display: flex;
-    height: 50vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
   }
@@ -26,12 +26,15 @@ body {
   }
 
   h2 {
+    padding-left: 662px;
+    text-align: left;
     color: #540032;
     background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg);
     background-attachment: fixed;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-shadow: 10px 10px 50px;
+    font-size:larger;
   }
 
   p {
@@ -62,4 +65,17 @@ body {
     position:absolute;
     right: 0px;
     top: 0px;
+  }
+
+  .navigation {
+    display: inline-flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-shadow: 10px 10px 50px;
+  }
+
+  .script {
+    height: 10vh;
   }
